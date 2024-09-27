@@ -1,0 +1,8 @@
+dic={1:'a',2:'b',3:'c'}
+print("The Actual dictionary is",dic)
+dic.update({4:'d'})
+print(f"The Updated Dictionary is {dic}")
+
+#output
+#The Actual dictionary is {1: 'a', 2: 'b', 3: 'c'}
+#The Updated Dictionary is {1: 'a', 2: 'b', 3: 'c', 4: 'd'}
