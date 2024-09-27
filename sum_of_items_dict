@@ -1,0 +1,10 @@
+dic={1:100,2:200,3:300}
+sum=0
+print("The Actual dictionary is",dic)
+for i in dic:
+	sum +=dic[i]
+print(f"The sum of all items is {sum}")
+
+#output
+#The Actual dictionary is {1: 100, 2: 200, 3: 300}
+#The sum of all items is 600
